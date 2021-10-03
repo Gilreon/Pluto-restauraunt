@@ -1,0 +1,25 @@
+.containerThree {
+  background-color: darkgray;
+  padding: 1px 0px 52px 0;
+}
+
+.containerThree .headings {
+  text-align: center;
+  margin-top: 55px;
+}
+
+.containerThree .headings h3 {
+  font-size: 1.10rem;
+}
+
+.containerThree .btn {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.containerThree p {
+  text-align: center;
+  width: 25vw;
+  margin: 30px auto 0 auto;
+}
+/*# sourceMappingURL=style.css.map */
