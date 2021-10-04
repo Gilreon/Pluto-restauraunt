@@ -67,6 +67,14 @@
   border: .5px solid black;
   padding: 10px 10px;
   border-radius: 5px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.containerTwo a:hover {
+  background-color: #ffa4a4;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+  color: white;
 }
 
 .containerThree {
@@ -100,6 +108,13 @@
   border: .5px solid black;
   padding: 10px 10px;
   border-radius: 5px;
+}
+
+.containerThree a:hover {
+  background-color: black;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+  color: white;
 }
 
 .containerThree p {
