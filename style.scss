@@ -203,4 +203,55 @@
     }
 
     /* Food Menu Styling */
-    
+
+    .containerFood {
+        text-align: center;
+        padding-bottom: 50px;
+        p:nth-last-child(1) {
+            margin-bottom: 100px;
+        }
+        
+        .firstH2 {
+            margin-top: 15px;
+        }
+
+        h2 {
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        h1 {
+            font-family: 'Ephesis', cursive;
+            font-size: 100px;
+            color: rgb(255, 164, 164) ;
+            padding-right: 20px;
+        }
+
+        .foodBorder {
+            border: 2px solid black;
+        }
+
+        .lastPizza {
+            padding-bottom: 0 !important;
+            margin-bottom: 5px !important;
+        }
+        /*
+        .pastaBtn {
+            border: 2px solid black;
+            padding: 5px 100px;
+            color: rgb(255, 164, 164) ;
+            text-decoration: none;
+            background-color: rgb(0,0,0); // Fallback color //
+            background-color: rgba(0,0,0, 0.4); // Black w/opacity/see-through // 
+
+        } */
+
+        .banner {
+            width: 340px;
+        }
+       
+    }
+
+    .containerBurgers {
+
+     
+    }
