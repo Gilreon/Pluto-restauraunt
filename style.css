@@ -53,6 +53,7 @@
 
 .containerTwo .row {
   margin-left: 20px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .containerTwo p {
@@ -133,12 +134,13 @@
 }
 
 .containerFour .smlHeading {
-  width: 241px;
+  width: 252px;
 }
 
 .containerFour .headings {
   text-align: center;
   margin-top: 55px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .containerFour .headings h3 {
@@ -152,6 +154,7 @@
           justify-content: space-evenly;
   padding-right: 96px;
   margin-top: 25px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .containerFour .col-2 {
@@ -201,10 +204,6 @@
         } */
 }
 
-.containerFood p:nth-last-child(1) {
-  margin-bottom: 100px;
-}
-
 .containerFood .firstH2 {
   margin-top: 15px;
 }
@@ -231,5 +230,10 @@
 
 .containerFood .banner {
   width: 340px;
+}
+
+/* Dessert Menu Styling */
+.containerDessert h1 {
+  letter-spacing: 0;
 }
 /*# sourceMappingURL=style.css.map */
