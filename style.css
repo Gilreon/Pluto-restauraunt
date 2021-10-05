@@ -236,4 +236,89 @@
 .containerDessert h1 {
   letter-spacing: 0;
 }
+
+/* Reservation Styline */
+.containerForm {
+  padding-top: 25px;
+  margin-left: 26vw;
+}
+
+.containerForm .btn {
+  margin-top: 20px;
+  margin-left: 20vw;
+}
+
+.containerForm .row2 {
+  margin-left: 6vw;
+}
+
+/* About Styling */
+.containerHistory {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 22vw;
+}
+
+.containerHistory p {
+  margin: 30px auto 0 45px !important;
+}
+
+.containerAbout {
+  background-color: #fafafa;
+  padding: 1px 0px 52px 0;
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  border-bottom: 2px solid black;
+}
+
+.containerAbout .headings {
+  text-align: center;
+  margin-top: 135px;
+}
+
+.containerAbout .headings h3 {
+  font-size: 1.10rem;
+  font-weight: 600;
+}
+
+.containerAbout .headings h2 {
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: 5px;
+}
+
+.containerAbout .btn {
+  margin-top: 141px;
+  margin-left: 10vw;
+}
+
+.containerAbout .button1 {
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #ffa4a4;
+  border: none;
+  color: black;
+  padding: 15px 150px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+.containerAbout .button1:hover {
+  -webkit-box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.containerAbout p {
+  text-align: center;
+  width: 25vw;
+  margin: 30px auto 0 auto;
+}
 /*# sourceMappingURL=style.css.map */
