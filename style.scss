@@ -4,6 +4,7 @@
 
 * {
     box-sizing: border-box;
+    
 }
 
 
@@ -311,18 +312,20 @@
 
     .containerHistory {
         display: flex;
-       margin-left: 22vw;
+       width: auto;
+       flex-direction: column;
+    }
 
-        p {
-            margin: 1.875rem auto 0 2.813rem !important;
-        }
+    .aboutHeading {
+        font-size: 4rem !important;
+        letter-spacing: normal;
+        margin-top: 5rem !important;
     }
 
     .containerAbout {
         background-color: rgb(250, 250, 250);
         padding: 1px 0px 52px 0;
         font-family: 'Open Sans', sans-serif;
-        padding-top: 100px;
         padding-bottom: 100px;
         border-bottom: 2px solid black;
     
@@ -343,8 +346,8 @@
     
         }
         .btn {
-            margin-top: 8.813rem;
-           margin-left: 10vw;
+            margin-top: 3.813rem;
+         
         }
     
         .button1 {
@@ -368,12 +371,82 @@
     
         p {
             text-align: center;
-            width: 25vw;
-            margin: 1.875rem auto 0 auto;
+            width: 450px;
+            margin: 0 auto;
         }
     }
 
     /* Media Queries */
+// /* Extra small devices (phones, 600px and down) */
+// @media only screen and (max-width: 600px) {...}
+// /* Small devices (portrait tablets and large phones, 600px and up) */
+// @media only screen and (min-width: 600px) {...}
+// /* Medium devices (landscape tablets, 768px and up) */
+// @media only screen and (min-width: 768px) {...}
+// /* Large devices (laptops/desktops, 992px and up) */
+// @media only screen and (min-width: 992px) {...}
+// /* Extra large devices (large laptops and desktops, 1200px and up) */
+// @media only screen and (min-width: 1200px) {...}
+   
+    @media only screen and (max-width: 1086px) {
+        
+        .aboutHeading {
+            font-size: 4rem !important;
+            letter-spacing: normal;
+            margin-top: 12rem !important;
+        }
+    }
+
+    @media only screen and (max-width: 798px) {
+        .aboutHeading {
+            font-size: 3rem !important;
+            letter-spacing: normal;
+            margin-top: 16rem !important;
+        }
+    }
+    @media only screen and (max-width: 609px) {
+        .aboutHeading {
+            font-size: 2rem !important;
+            letter-spacing: normal;
+            margin-top: 18rem !important;
+
+            p {
+                width: 400px !important;
+            }
+        }
+     
+    }
+
+    @media only screen and (max-width: 500px) {
+       
+       
+        .aboutHeading {
+            font-size: 2rem !important;
+            letter-spacing: normal;
+            margin-top: 20rem !important;
+           
+        }
+       
+        .containerAbout {
+            
+            p {
+                text-align: center;
+                width: auto !important; 
+                margin: 0 auto;
+            }
+
+            .btn {
+                width: auto !important;
+            }
+
+            .button1 {
+                width: auto !important;
+                padding: 0.938rem 5.375rem;
+            }
+    }
+
+
+}
 
 
 
@@ -387,7 +460,7 @@
        
     
     
-        h1 {
+        .pluto {
             font-size: 9.375rem;
             color: rgb(255, 164, 164);
             background-color: rgb(0,0,0); /* Fallback color */
@@ -425,7 +498,7 @@
         font-family: 'Ephesis', cursive;
         
         
-        h1 {
+        .pluto {
             font-size: 6.375rem;
             color: rgb(255, 164, 164);
             background-color: rgb(0,0,0); /* Fallback color */
@@ -461,7 +534,7 @@
         font-family: 'Ephesis', cursive;
         
         
-        h1 {
+        .pluto {
             font-size: 5.375rem;
             color: rgb(255, 164, 164);
             background-color: rgb(0,0,0); /* Fallback color */
@@ -497,7 +570,7 @@
         font-family: 'Ephesis', cursive;
         
         
-        h1 {
+        .pluto {
             font-size: 3.375rem;
             color: rgb(255, 164, 164);
             background-color: rgb(0,0,0); /* Fallback color */
@@ -533,7 +606,7 @@
         font-family: 'Ephesis', cursive;
         
         
-        h1 {
+        .pluto {
             font-size: 2.375rem;
             color: rgb(255, 164, 164);
             background-color: rgb(0,0,0); /* Fallback color */
@@ -569,7 +642,7 @@
         font-family: 'Ephesis', cursive;
         
         
-        h1 {
+        .pluto {
             font-size: 2.375rem;
             color: rgb(255, 164, 164);
             background-color: rgb(0,0,0); /* Fallback color */
@@ -605,7 +678,7 @@
         font-family: 'Ephesis', cursive;
         
         
-        h1 {
+        .pluto {
             font-size: 1.375rem;
             color: rgb(255, 164, 164);
             background-color: rgb(0,0,0); /* Fallback color */
@@ -648,7 +721,7 @@
         font-family: 'Ephesis', cursive;
         
         
-        h1 {
+        .pluto {
             font-size: 1.375rem;
             color: rgb(255, 164, 164);
             background-color: rgb(0,0,0); /* Fallback color */
@@ -672,7 +745,7 @@
         }
 
     }
-    
+
     .col {
         flex: 0 1 auto;
     }

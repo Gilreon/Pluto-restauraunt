@@ -217,18 +217,23 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: 22vw;
+  width: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
-.containerHistory p {
-  margin: 1.875rem auto 0 2.813rem !important;
+.aboutHeading {
+  font-size: 4rem !important;
+  letter-spacing: normal;
+  margin-top: 5rem !important;
 }
 
 .containerAbout {
   background-color: #fafafa;
   padding: 1px 0px 52px 0;
   font-family: 'Open Sans', sans-serif;
-  padding-top: 100px;
   padding-bottom: 100px;
   border-bottom: 2px solid black;
 }
@@ -250,8 +255,7 @@
 }
 
 .containerAbout .btn {
-  margin-top: 8.813rem;
-  margin-left: 10vw;
+  margin-top: 3.813rem;
 }
 
 .containerAbout .button1 {
@@ -278,11 +282,58 @@
 
 .containerAbout p {
   text-align: center;
-  width: 25vw;
-  margin: 1.875rem auto 0 auto;
+  width: 450px;
+  margin: 0 auto;
 }
 
 /* Media Queries */
+@media only screen and (max-width: 1086px) {
+  .aboutHeading {
+    font-size: 4rem !important;
+    letter-spacing: normal;
+    margin-top: 12rem !important;
+  }
+}
+
+@media only screen and (max-width: 798px) {
+  .aboutHeading {
+    font-size: 3rem !important;
+    letter-spacing: normal;
+    margin-top: 16rem !important;
+  }
+}
+
+@media only screen and (max-width: 609px) {
+  .aboutHeading {
+    font-size: 2rem !important;
+    letter-spacing: normal;
+    margin-top: 18rem !important;
+  }
+  .aboutHeading p {
+    width: 400px !important;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .aboutHeading {
+    font-size: 2rem !important;
+    letter-spacing: normal;
+    margin-top: 20rem !important;
+  }
+  .containerAbout p {
+    text-align: center;
+    width: auto !important;
+    margin: 0 auto;
+  }
+  .containerAbout .btn {
+    width: auto !important;
+  }
+  .containerAbout .button1 {
+    width: auto !important;
+    padding: 0.938rem 5.375rem;
+  }
+}
+
 @media only screen and (max-width: 1177px) {
   .carousel-caption {
     bottom: 22.25rem;
@@ -290,7 +341,7 @@
     text-transform: uppercase;
     font-family: 'Ephesis', cursive;
   }
-  .carousel-caption h1 {
+  .carousel-caption .pluto {
     font-size: 9.375rem;
     color: #ffa4a4;
     background-color: black;
@@ -323,7 +374,7 @@
     text-transform: uppercase;
     font-family: 'Ephesis', cursive;
   }
-  .carousel-caption h1 {
+  .carousel-caption .pluto {
     font-size: 6.375rem;
     color: #ffa4a4;
     background-color: black;
@@ -356,7 +407,7 @@
     text-transform: uppercase;
     font-family: 'Ephesis', cursive;
   }
-  .carousel-caption h1 {
+  .carousel-caption .pluto {
     font-size: 5.375rem;
     color: #ffa4a4;
     background-color: black;
@@ -389,7 +440,7 @@
     text-transform: uppercase;
     font-family: 'Ephesis', cursive;
   }
-  .carousel-caption h1 {
+  .carousel-caption .pluto {
     font-size: 3.375rem;
     color: #ffa4a4;
     background-color: black;
@@ -422,7 +473,7 @@
     text-transform: uppercase;
     font-family: 'Ephesis', cursive;
   }
-  .carousel-caption h1 {
+  .carousel-caption .pluto {
     font-size: 2.375rem;
     color: #ffa4a4;
     background-color: black;
@@ -455,7 +506,7 @@
     text-transform: uppercase;
     font-family: 'Ephesis', cursive;
   }
-  .carousel-caption h1 {
+  .carousel-caption .pluto {
     font-size: 2.375rem;
     color: #ffa4a4;
     background-color: black;
@@ -488,7 +539,7 @@
     text-transform: uppercase;
     font-family: 'Ephesis', cursive;
   }
-  .carousel-caption h1 {
+  .carousel-caption .pluto {
     font-size: 1.375rem;
     color: #ffa4a4;
     background-color: black;
@@ -524,7 +575,7 @@
     text-transform: uppercase;
     font-family: 'Ephesis', cursive;
   }
-  .carousel-caption h1 {
+  .carousel-caption .pluto {
     font-size: 1.375rem;
     color: #ffa4a4;
     background-color: black;
