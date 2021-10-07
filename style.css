@@ -22,13 +22,13 @@
 
 .carousel-caption {
   bottom: 22.25rem;
-  letter-spacing: 12px;
+  letter-spacing: 0.75rem;
   text-transform: uppercase;
   font-family: 'Ephesis', cursive;
 }
 
 .carousel-caption h1 {
-  font-size: 150px;
+  font-size: 9.375rem;
   color: #ffa4a4;
   background-color: black;
   /* Fallback color */
@@ -42,13 +42,13 @@
           transform: translate(-50%, -50%);
   z-index: 2;
   width: 80%;
-  padding: 20px;
+  padding: 1.25rem;
   text-align: center;
 }
 
 .containerTwo {
-  margin-top: 75px;
-  margin-bottom: 95px;
+  margin-top: 4.688rem;
+  margin-bottom: 5.938rem;
   text-align: center;
 }
 
@@ -57,13 +57,13 @@
 }
 
 .containerTwo .row {
-  margin-left: 20px;
+  margin-left: 1.25rem;
   font-family: 'Open Sans', sans-serif;
 }
 
 .containerTwo p {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
 }
 
 .containerTwo a {
@@ -71,8 +71,8 @@
   color: black;
   text-align: center;
   border: .5px solid black;
-  padding: 10px 10px;
-  border-radius: 5px;
+  padding: 0.625rem 0.625rem;
+  border-radius: 0.313rem;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -91,7 +91,7 @@
 
 .containerThree .headings {
   text-align: center;
-  margin-top: 55px;
+  margin-top: 3.438rem;
 }
 
 .containerThree .headings h3 {
@@ -101,8 +101,8 @@
 
 .containerThree .headings h2 {
   font-weight: 700;
-  font-size: 40px;
-  letter-spacing: 5px;
+  font-size: 2.5rem;
+  letter-spacing: 0.313rem;
 }
 
 .containerThree .btn {
@@ -112,8 +112,8 @@
   color: black;
   text-align: center;
   border: .5px solid black;
-  padding: 10px 10px;
-  border-radius: 5px;
+  padding: 0.625rem 0.625rem;
+  border-radius: 0.313rem;
 }
 
 .containerThree a:hover {
@@ -126,81 +126,38 @@
 .containerThree p {
   text-align: center;
   width: 25vw;
-  margin: 30px auto 0 auto;
+  margin: 1.875rem auto 0 auto;
 }
 
-.containerFour {
-  padding-bottom: 145px;
-}
-
-.containerFour .smallHeadings {
-  margin-top: 25px;
-  margin-bottom: 30px;
-}
-
-.containerFour .smlHeading {
-  width: 252px;
-}
-
-.containerFour .headings {
+.container-four {
+  margin-top: 4.688rem;
+  margin-bottom: 5.938rem;
   text-align: center;
-  margin-top: 55px;
-  font-family: 'Open Sans', sans-serif;
 }
 
-.containerFour .headings h3 {
-  font-size: 1.10rem;
-}
-
-.containerFour .row {
-  margin: 0 auto;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  padding-right: 96px;
-  margin-top: 25px;
-  font-family: 'Open Sans', sans-serif;
-}
-
-.containerFour .col-sm-4 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.containerFour .col-sm-4 .imgContent {
-  border: 2px solid black;
-  width: 300px;
-  padding: 10px 20px;
-}
-
-.containerFour img {
-  width: 300px;
+.container-four img {
+  max-width: 12.5rem;
   border-radius: 50%;
-  margin-bottom: 20px;
 }
 
-.page-footer .logo2 {
-  margin-bottom: 20px;
+.container-four .row {
+  margin-left: 1.25rem;
+  font-family: 'Open Sans', sans-serif;
 }
 
-.page-footer .icons img {
-  padding-right: 5px;
-  cursor: pointer;
+.container-four p {
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
 }
 
 /* Food Menu Styling */
 .containerFood {
   text-align: center;
-  padding-bottom: 50px;
+  padding-bottom: 3.125rem;
   /*
         .pastaBtn {
             border: 2px solid black;
-            padding: 5px 100px;
+            padding: 0.313rem 100px;
             color: rgb(255, 164, 164) ;
             text-decoration: none;
             background-color: rgb(0,0,0); // Fallback color //
@@ -210,7 +167,7 @@
 }
 
 .containerFood .firstH2 {
-  margin-top: 15px;
+  margin-top: 0.938rem;
 }
 
 .containerFood h2 {
@@ -219,9 +176,9 @@
 
 .containerFood h1 {
   font-family: 'Ephesis', cursive;
-  font-size: 100px;
+  font-size: 16.25rem;
   color: #ffa4a4;
-  padding-right: 20px;
+  padding-right: 1.25rem;
 }
 
 .containerFood .foodBorder {
@@ -230,11 +187,11 @@
 
 .containerFood .lastPizza {
   padding-bottom: 0 !important;
-  margin-bottom: 5px !important;
+  margin-bottom: 0.313rem !important;
 }
 
 .containerFood .banner {
-  width: 340px;
+  width: 21.25rem;
 }
 
 /* Dessert Menu Styling */
@@ -244,12 +201,12 @@
 
 /* Reservation Styline */
 .containerForm {
-  padding-top: 25px;
+  padding-top: 1.563rem;
   margin-left: 26vw;
 }
 
 .containerForm .btn {
-  margin-top: 20px;
+  margin-top: 1.25rem;
   margin-left: 20vw;
 }
 
@@ -266,7 +223,7 @@
 }
 
 .containerHistory p {
-  margin: 30px auto 0 45px !important;
+  margin: 1.875rem auto 0 2.813rem !important;
 }
 
 .containerAbout {
@@ -280,7 +237,7 @@
 
 .containerAbout .headings {
   text-align: center;
-  margin-top: 135px;
+  margin-top: 8.438rem;
 }
 
 .containerAbout .headings h3 {
@@ -290,26 +247,26 @@
 
 .containerAbout .headings h2 {
   font-weight: 700;
-  font-size: 40px;
-  letter-spacing: 5px;
+  font-size: 2.5rem;
+  letter-spacing: 0.313rem;
 }
 
 .containerAbout .btn {
-  margin-top: 141px;
+  margin-top: 8.813rem;
   margin-left: 10vw;
 }
 
 .containerAbout .button1 {
-  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 0 8px 1rem 0 rgba(0, 0, 0, 0.2), 0 6px 1.25rem 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 8px 1rem 0 rgba(0, 0, 0, 0.2), 0 6px 1.25rem 0 rgba(0, 0, 0, 0.19);
   background-color: #ffa4a4;
   border: none;
   color: black;
-  padding: 15px 150px;
+  padding: 0.938rem 9.375rem;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 1rem;
   margin: 4px 2px;
   cursor: pointer;
   -webkit-transition-duration: 0.4s;
@@ -317,14 +274,14 @@
 }
 
 .containerAbout .button1:hover {
-  -webkit-box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
-          box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 0 0.75rem 1rem 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 0.75rem 1rem 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
 .containerAbout p {
   text-align: center;
   width: 25vw;
-  margin: 30px auto 0 auto;
+  margin: 1.875rem auto 0 auto;
 }
 
 /* Media Queries */

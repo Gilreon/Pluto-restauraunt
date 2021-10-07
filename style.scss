@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 
+
 .navbar {
     position: fixed;
     z-index: 3;
@@ -27,7 +28,7 @@
 
 .carousel-caption {
     bottom: 22.25rem;
-    letter-spacing: 12px;
+    letter-spacing: 0.75rem;
     text-transform: uppercase;
     font-family: 'Ephesis', cursive;
    
@@ -35,7 +36,7 @@
 
 
     h1 {
-        font-size: 150px;
+        font-size: 9.375rem;
         color: rgb(255, 164, 164);
         background-color: rgb(0,0,0); /* Fallback color */
         background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
@@ -46,7 +47,7 @@
         transform: translate(-50%, -50%);
         z-index: 2;
         width: 80%;
-        padding: 20px;
+        padding: 1.25rem;
         text-align: center;
         
     }
@@ -57,8 +58,8 @@
 
 
 .containerTwo {
-    margin-top: 75px;
-    margin-bottom: 95px;
+    margin-top: 4.688rem;
+    margin-bottom: 5.938rem;
     text-align: center;
     
 
@@ -67,14 +68,14 @@
     }
 
     .row {
-        margin-left: 20px;
+        margin-left: 1.25rem;
         font-family: 'Open Sans', sans-serif;
         
     }
     
     p {
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-top: 0.625rem;
+        padding-bottom: 0.625rem;
     }
 
     a {
@@ -82,8 +83,8 @@
         color: black;
         text-align: center;
         border: .5px solid black;
-        padding: 10px 10px;
-        border-radius: 5px;
+        padding: 0.625rem 0.625rem;
+        border-radius: 0.313rem;
         font-family: 'Open Sans', sans-serif;
 
        
@@ -106,7 +107,7 @@
 
     .headings {
      text-align: center;
-     margin-top: 55px;
+     margin-top: 3.438rem;
      
      h3 {
          font-size: 1.10rem;
@@ -115,8 +116,8 @@
 
      h2 {
          font-weight: 700;
-         font-size: 40px;
-         letter-spacing: 5px;
+         font-size: 2.5rem;
+         letter-spacing: 0.313rem;
      }
 
     }
@@ -128,8 +129,8 @@
         color: black;
         text-align: center;
         border: .5px solid black;
-        padding: 10px 10px;
-        border-radius: 5px;
+        padding: 0.625rem 0.625rem;
+        border-radius: 0.313rem;
       
     }
     a:hover {
@@ -141,82 +142,108 @@
     p {
         text-align: center;
         width: 25vw;
-        margin: 30px auto 0 auto;
+        margin: 1.875rem auto 0 auto;
     }
 }
 
-.containerFour {
-    padding-bottom: 145px;
+
+.container-four {
+    margin-top: 4.688rem;
+    margin-bottom: 5.938rem;
+    text-align: center;
+    
+
+    img {
+        max-width: 12.5rem;
+        border-radius: 50%;
+    }
+
+    .row {
+        margin-left: 1.25rem;
+        font-family: 'Open Sans', sans-serif;
+        
+    }
+    
+    p {
+        padding-top: 0.625rem;
+        padding-bottom: 0.625rem;
+    }
+
+}
+
+
+
+// .containerFour {
+//     padding-bottom: 9.063rem;
  
-    .smallHeadings {
-        margin-top: 25px;
-        margin-bottom: 30px;
-    }
+//     .smallHeadings {
+//         margin-top: 1.563rem;
+//         margin-bottom: 1.875rem;
+//     }
 
-    .smlHeading {
-        width: 252px;
-    }
+//     .smlHeading {
+//         width: 15.75rem;
+//     }
 
-        .headings {
-         text-align: center;
-         margin-top: 55px;
-         font-family: 'Open Sans', sans-serif;
-         h3 {
+//         .headings {
+//          text-align: center;
+//          margin-top: 3.438rem;
+//          font-family: 'Open Sans', sans-serif;
+//          h3 {
             
-             font-size: 1.10rem;
-         }
+//              font-size: 1.10rem;
+//          }
     
-        }
+//         }
 
-        .row {
-            margin: 0 auto;
-            justify-content: space-evenly;
-            padding-right: 96px;
-            margin-top: 25px;
-            font-family: 'Open Sans', sans-serif;
-        }
+//         .row {
+//             justify-content: space-evenly;
+//             padding-right: 6rem;
+//             margin-top: 1.563rem;
+//             font-family: 'Open Sans', sans-serif;
+//         }
     
 
-        .col-sm-4 {
-            display: flex;
-            flex-direction: column;
+//         .col-sm-4 {
+//             display: flex;
+//             flex-direction: column;
 
-            .imgContent {
-                border: 2px solid black;
-                width: 300px;
-                padding: 10px 20px;
-            }
-        }
+//             .imgContent {
+//                 border: 2px solid black;
+//                 width: 300px;
+//                 padding: 0.625rem 1.25rem;
+//             }
+//         }
 
-        img {
-            width: 300px;
-            border-radius: 50%;
-            margin-bottom: 20px;
-        }
-    }
-    .page-footer {
-        .logo2 {
-            margin-bottom: 20px;
-        }
+//         img {
+//             width: 300px;
+//             border-radius: 50%;
+//             margin-bottom: 1.25rem;
+//         }
+//     }
+//     .page-footer {
+//         .logo2 {
+//             margin-bottom: 1.25rem;
+//         }
 
-        .icons {
-            img {
-                padding-right: 5px;
-                cursor: pointer;
-            }
+//         .icons {
+//             img {
+//                 padding-right: 0.313rem;
+//                 cursor: pointer;
+//             }
 
-        }
-    }
+//         }
+//     }
 
     /* Food Menu Styling */
 
     .containerFood {
         text-align: center;
-        padding-bottom: 50px;
+        padding-bottom: 3.125rem;
        
         
         .firstH2 {
-            margin-top: 15px;
+            margin-top: 0.938rem;
         }
 
         h2 {
@@ -225,9 +252,9 @@
 
         h1 {
             font-family: 'Ephesis', cursive;
-            font-size: 100px;
+            font-size: 16.25rem;
             color: rgb(255, 164, 164) ;
-            padding-right: 20px;
+            padding-right: 1.25rem;
         }
 
         .foodBorder {
@@ -236,12 +263,12 @@
 
         .lastPizza {
             padding-bottom: 0 !important;
-            margin-bottom: 5px !important;
+            margin-bottom: 0.313rem !important;
         }
         /*
         .pastaBtn {
             border: 2px solid black;
-            padding: 5px 100px;
+            padding: 0.313rem 100px;
             color: rgb(255, 164, 164) ;
             text-decoration: none;
             background-color: rgb(0,0,0); // Fallback color //
@@ -250,7 +277,7 @@
         } */
 
         .banner {
-            width: 340px;
+            width: 21.25rem;
         }
        
     }
@@ -268,12 +295,12 @@
     /* Reservation Styline */
 
  .containerForm {
-     padding-top: 25px;
+     padding-top: 1.563rem;
      margin-left: 26vw;
 
 
      .btn {
-        margin-top: 20px;
+        margin-top: 1.25rem;
          margin-left: 20vw;
      }
 
@@ -289,7 +316,7 @@
        margin-left: 22vw;
 
         p {
-            margin: 30px auto 0 45px !important;
+            margin: 1.875rem auto 0 2.813rem !important;
         }
     }
 
@@ -303,7 +330,7 @@
     
         .headings {
          text-align: center;
-         margin-top: 135px;
+         margin-top: 8.438rem;
          
          h3 {
              font-size: 1.10rem;
@@ -312,39 +339,39 @@
     
          h2 {
              font-weight: 700;
-             font-size: 40px;
-             letter-spacing: 5px;
+             font-size: 2.5rem;
+             letter-spacing: 0.313rem;
          }
     
         }
         .btn {
-            margin-top: 141px;
+            margin-top: 8.813rem;
            margin-left: 10vw;
         }
     
         .button1 {
-            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            box-shadow: 0 8px 1rem 0 rgba(0,0,0,0.2), 0 6px 1.25rem 0 rgba(0,0,0,0.19);
             background-color: rgb(255, 164, 164);
             border: none;
             color: black;
-            padding: 15px 150px;
+            padding: 0.938rem 9.375rem;
             text-align: center;
             text-decoration: none;
             display: inline-block;
-            font-size: 16px;
+            font-size: 1rem;
             margin: 4px 2px;
             cursor: pointer;
             -webkit-transition-duration: 0.4s;
             transition-duration: 0.4s;
             &:hover {
-                box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+                box-shadow: 0 0.75rem 1rem 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
             }
           }
     
         p {
             text-align: center;
             width: 25vw;
-            margin: 30px auto 0 auto;
+            margin: 1.875rem auto 0 auto;
         }
     }
 
