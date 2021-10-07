@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Ephesis&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 .navbar {
   position: fixed;
   z-index: 3;
@@ -157,7 +162,7 @@
   font-family: 'Open Sans', sans-serif;
 }
 
-.containerFour .col-2 {
+.containerFour .col-sm-4 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -167,7 +172,7 @@
           flex-direction: column;
 }
 
-.containerFour .col-2 .imgContent {
+.containerFour .col-sm-4 .imgContent {
   border: 2px solid black;
   width: 300px;
   padding: 10px 20px;
@@ -321,4 +326,6 @@
   width: 25vw;
   margin: 30px auto 0 auto;
 }
+
+/* Media Queries */
 /*# sourceMappingURL=style.css.map */
